@@ -1,0 +1,45 @@
+.menu-btn {
+  display: none;
+
+}
+
+.header {
+  &__nav {
+    display: flex;
+  }
+}
+
+.works {
+  width: 100%;
+
+  &__inner {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &::after {
+      display: block;
+      content:"";
+      width: 32%;
+      }
+  }
+
+  &__item {
+    width: 32%;
+  }
+}
+
+.footer {
+  &__nav {
+    justify-content: center;
+
+  }
+}
